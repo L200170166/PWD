@@ -1,0 +1,14 @@
+1. link menuju = halaman2 di dalam html
+2. link menuju = halaman pencarian google
+3. link menuju = halaman referensi
+4. target membuka link/ halaman baru
+5. memasukkan inputan dengan tipe check list/cekbox
+6. variable yang menyimpan id cekSing
+6. memasukkan inputan dengan tipe text atau karakter
+7. ID merupakan selector yang digunakan oleh satu tag html
+9. Atribut untuk inputan dengan maksimal/panjang karakater 20 
+10. digunakan untuk memasukkan inputan berupa karakter lebih banyak
+11. digunakan untuk membuat jarak kolom sbesar 20
+12. digunakan untk karakter spesial untuk spasi yang tak dapat dipecah
+13. tag untuk membuat gambar/teks berjalan dari kiri ke kanan
+14. blink digunakan untuk membuat tulisan berkedip 
