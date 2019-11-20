@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Tugas</title>
+        
+        <body>
+            <h4>CEK BROOO.</h4>
+        </body>
+        <script>
+            var nilai;
+            function lihat(){
+                nilai = document.getElementById("input").value;
+                if(0<=nilai && nilai<=20){
+                    document.getElementById("fiko").innerHTML = "Nilai anda adalah = E";
+                }
+                else if(21<=nilai && nilai<=40){
+                    document.getElementById("fiko").innerHTML = "Nilai anda adalah = D";
+                }
+                else if(41<=nilai && nilai<=60){
+                    document.getElementById("fiko").innerHTML = "Nilai anda adalah = C";
+                }
+                else if(61<=nilai && nilai<=80){
+                    document.getElementById("fiko").innerHTML = "Nilai anda adalah = B";
+                }
+                else if(81<=nilai && nilai<=100){
+                    document.getElementById("fiko").innerHTML = " Nilai anda adalah = A";
+                }
+                else{
+                    document.getElementById("fiko").innerHTML = "nilai yang anda masukan salah";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="tugas">
+            Masukkan Nilai : <input type="text" id="input" size="10" maxlength="3"></br>
+            <input type="button" onclick="lihat();" value="cek"></br></br>
+            <h2 id="fiko"></h2>
+        </form> 
+    </body>
+</html>
