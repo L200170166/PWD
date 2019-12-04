@@ -1,0 +1,22 @@
+body
+{
+    background-image: url(tugas.jpg);
+    background-size: contain;
+}
+h2
+{
+    font-family:arial;
+}
+table
+{
+    background:transparent;
+}
+.td {
+    font-family: arial;
+    font-weight:bold;
+}
+.dashed
+{
+    border-style:dashed;
+    border-color:white;
+}
